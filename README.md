@@ -56,15 +56,17 @@ Vue.use(TableList)
 
 ## parameter
 
-| 参数 | 说明 |类型 |
-| --- -----------| -----------|----|
-|    formModel     |    搜索绑定的model值     |  Object |
-|    formItem     |    搜索表单组件内容, 默认支持input,select两种表单组件,可通过参数配置     |  Array |
-|    tableData     |    表格显示内容     |  Array |
-|    tableColumn     |    表格头部绑定数据     |  Array |
-|    page     |    分页配置     |  Object |
-|    onSearch     |    搜索方法函数     |  Function |
-|    currentChange     |    分页切换函数     |  Function |
+
+参数 | 说明 | 类型
+---|---|---
+formModel | 搜索绑定的model值 | Object
+formItem | 搜索表单组件内容, 默认支持input,select两种表单组件,可通过参数配置 | Array
+tableData | 表格显示内容 | Array
+tableColumn | 表格头部绑定数据 | Object
+page | 分页配置 | Object
+onSearch | 搜索方法函数 | Function
+currentChange | 分页切换函数 | Function
+
 
 
 ### formModel
