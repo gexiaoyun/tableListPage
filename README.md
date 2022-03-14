@@ -33,7 +33,11 @@ Vue.use(TableList)
           </el-col>
         </el-row>
       </div>
-	  
+<!-- search btn slot -->
+<div slot="searchBtn>
+  <el-button type="primary" size="small" @click.stop="search" v-else>搜索</el-button>
+</div>
+
 <!-- table column slot  -->	  
       <div slot="tableColumn">
         <el-table-column

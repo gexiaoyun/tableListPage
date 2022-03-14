@@ -16,6 +16,7 @@
           </el-col>
         </el-row>
       </div>
+      <div slot="searchBtn">123</div>
       <div slot="tableColumn">
         <el-table-column
           prop="status"

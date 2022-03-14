@@ -39,7 +39,8 @@ formList   searchForm Item
         </el-row>
       </el-form>
       <div style="text-align: right; padding-right: 20px;">
-        <el-button type="primary" size="small" @click.stop="search">搜索</el-button>
+        <slot name="searchBtn" v-if="$slots.searchBtn"></slot>
+        <el-button type="primary" size="small" @click.stop="search" v-else>搜索</el-button>
       </div>
     </div>
     <el-divider content-position="left">数据展示</el-divider>
