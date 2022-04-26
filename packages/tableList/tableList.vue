@@ -45,7 +45,7 @@ formList   searchForm Item
     </div>
     <el-divider content-position="left">数据展示</el-divider>
     <el-table
-      border
+      :border="isBorder"
       :data="tableDataList">
       <el-table-column
         v-for="(item, index) in tableColumnList"
@@ -89,6 +89,9 @@ export default {
     },
     tableColumn: {
       type: Array
+    },
+    isBorder: {
+      type: Boolean
     },
     page: {
       type: Object

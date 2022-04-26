@@ -1,6 +1,6 @@
 {
   "name": "table-list-page",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "author": "mouse",
   "main": "lib/tableListPage.umd.min.js",
